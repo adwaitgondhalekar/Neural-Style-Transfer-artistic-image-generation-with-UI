@@ -1,0 +1,130 @@
+<html>
+<head>
+	<meta charset="utf-8">
+<title>Neural Style Transfer</title>
+<link rel="shortcut icon" href="#">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css" >
+
+<script type="text/javascript">
+  $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+
+
+</script>
+
+<script type="text/javascript" src="{{url_for('static', filename='jquery/jquery-3.6.0.min.js') }}"></script>
+
+<script type="text/javascript">
+
+    content_image_path = '{{ user_image_c }}';
+    style_image_path = '{{ user_image_s }}';
+    document.getElementById("contentimage").src = content_image_path;
+    document.getElementById("styleimage").src = style_image_path;
+
+	function readURLc(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#contentimage')
+                        .attr('src', e.target.result);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+ function readURLs(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#styleimage')
+                        .attr('src', e.target.result);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+	
+	</script>
+
+
+
+</head>
+
+<body>
+  <div class="container">
+  	<div class="heading">
+  		<h1>Artistic Image Generation</h1>
+  		
+  	</div>
+  	<div class="images-container">
+  		<div class="inner-container">
+
+  				<div class="content-image">
+  					<div class="c-image-display">
+  						<img id="contentimage" src="../static/content_images/content_image.png"  alt="Content Image" height="400px" width="400px" />
+  					</div>
+  					<div class="c-image-choose">
+                        <form action = "http://localhost:5000/uploadc" method = "POST" 
+         enctype = "multipart/form-data">
+                        <input type="file" name="file" accept="image/png, image/gif, image/jpeg"  />
+                        <input type = "submit" />
+
+                        </form>
+  						
+  						
+  					</div>
+  					
+  				
+
+  				
+  			</div>
+  			
+  			<div class="style-image">
+  				<div class="s-image-display">
+  						<img id="styleimage" src="../static/style_images/style_image.png"  alt="Style Image" height="400px" width="400px" />
+  					</div>
+  					<div class="s-image-choose">
+  						<form action = "http://localhost:5000/uploads" method = "POST" 
+         enctype = "multipart/form-data">
+                        <input type="file" name="file" accept="image/png, image/gif, image/jpeg"  />
+                        <input type = "submit" />
+
+                        </form>
+  						
+  					</div>
+  					
+  				
+
+  				
+  			</div>
+  			<div class="combination-image">
+  				<div class="combi-image-display">
+  						<img id="combinationimage" src="../static/result_images/result_image.png"  alt="Combination Image" height="400px" width="400px" />
+  					</div>
+  					<div class="make-combi-image">
+  						<form action = "http://localhost:5000/artistic" method = "POST">
+                            <button>Convert into Artistic Image</button>
+                        </form>
+  					</div>
+  				
+  			</div>
+  				
+  			
+  			
+
+  
+
+
+
+  		
+
+  		
+  	</div>
+
+  	
+  </div>
+  
+</body>
+</html>
