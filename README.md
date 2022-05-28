@@ -12,7 +12,7 @@
 
 <BR>
 
-## 📸 Screenshots
+## 📸 Screenshot
 
 <table>
   <tr>
