@@ -10,3 +10,20 @@
 
 ## After doing histogram matching, visual improvement was observed in the output image. 
 
+<BR>
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <th>Screenshot</th>
+    
+  </tr>
+  
+  <tr>
+    <td><img src="https://github.com/adwaitgondhalekar/Retrieval-Chatbot/blob/master/Screenshots/Screenshot1.png"></td>
+   
+  </tr>
+  
+  
+</table>
