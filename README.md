@@ -21,7 +21,7 @@
   </tr>
   
   <tr>
-    <td><img src="https://github.com/adwaitgondhalekar/Retrieval-Chatbot/blob/master/Screenshots/Screenshot1.png"></td>
+    <td><img src="https://github.com/adwaitgondhalekar/Artistic-Image-Generation-using-NST-with-UI/blob/master/Screenshot%20(159).png"></td>
    
   </tr>
   
