@@ -26,7 +26,7 @@
   </tr>
   
   <tr>
-    <th> Screenshot 2 </th>
+    <th> Screenshot 2 with Updated User Interface </th>
   </tr>
   
   <tr>
