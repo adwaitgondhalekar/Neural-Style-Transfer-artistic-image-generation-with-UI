@@ -16,13 +16,45 @@
 
 <table>
   <tr>
-    <th>Screenshot</th>
+    <th>Screenshot 1</th>
     
   </tr>
   
   <tr>
     <td><img src="https://github.com/adwaitgondhalekar/Artistic-Image-Generation-using-NST-with-UI/blob/master/Screenshot%20(159).png"></td>
    
+  </tr>
+  
+  <tr>
+    <th> Screenshot 2 </th>
+  </tr>
+  
+  <tr>
+    <td> <img src="https://github.com/adwaitgondhalekar/Artistic-Image-Generation-using-NST-with-UI/blob/master/Screenshot%20(165).png"></td>
+  </tr>
+  
+  <tr>
+    <th> Screenshot 3 </th>
+  </tr>
+  
+  <tr>
+    <td> <img src="https://github.com/adwaitgondhalekar/Artistic-Image-Generation-using-NST-with-UI/blob/master/Screenshot%20(166).png"></td>
+  </tr>
+  
+  <tr>
+    <th> Screenshot 4 </th>
+  </tr>
+  
+  <tr>
+    <td> <img src="https://github.com/adwaitgondhalekar/Artistic-Image-Generation-using-NST-with-UI/blob/master/Screenshot%20(168).png"></td>
+  </tr>
+  
+  <tr>
+    <th> Screenshot 5 </th>
+  </tr>
+  
+  <tr>
+    <td> <img src="https://github.com/adwaitgondhalekar/Artistic-Image-Generation-using-NST-with-UI/blob/master/Screenshot%20(169).png"></td>
   </tr>
   
   
